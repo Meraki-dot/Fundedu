@@ -1,0 +1,23 @@
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Contracts.deps.json
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Contracts.dll
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Contracts.pdb
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.csprojAssemblyReference.cache
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfoInputs.cache
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfo.cs
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.dll
+C:\Users\redwood-presenter\Desktop\paul\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.pdb
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Contracts.deps.json
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Contracts.dll
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Contracts.pdb
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.csprojAssemblyReference.cache
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.AssemblyInfo.cs
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.csproj.CopyComplete
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.dll
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\obj\Debug\netcoreapp2.2\Contracts.pdb
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\User\Documents\Redwood\Full Stack\1. Account Owner\Database\AccountOwnerServer\Contracts\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
