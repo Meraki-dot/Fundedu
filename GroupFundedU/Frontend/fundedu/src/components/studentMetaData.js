@@ -1,0 +1,19 @@
+import React from 'react'
+
+const StudentMetaData = () => {
+    return (
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwn5AAfuYWHWGuoSMYkJ0Ote4m7Pc7teDrTDn11jEoZSnLuY6P" alt="" />
+            <h5>Check Balanace</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis accusantium obcaecati blanditiis nobis nesciunt dignissimos quos iusto, tempore at aperiam, quas hic suscipit voluptate eos debitis. Consequatur, sint! Mollitia.</p>
+            <img src="data:image/png;base64,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" alt="" />
+            <h5>Share</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum sapiente cupiditate accusantium ipsum maxime id nisi maiores rem illo dolorum quo eligendi beatae ipsam aperiam voluptas ab rerum, debitis sunt.</p>
+            <img src="https://www.onlinelogomaker.com/images/tutorialnew/tutorial.jpg" alt="" />
+            <h5>How to Spend</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos nam tenetur dolore recusandae soluta deleniti nisi expedita optio reiciendis illo iusto, at adipisci. Pariatur temporibus assumenda iure rem quos.</p>
+        </div>
+    );
+}
+
+export default StudentMetaData;
