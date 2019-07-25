@@ -1,8 +1,0 @@
-2019-07-23 13:17:48.1116 INFO Here is info message
-2019-07-23 13:17:48.1701 DEBUG Here is debug message
-2019-07-23 13:17:48.1777 WARN Here is warn message
-2019-07-23 13:17:48.1777 ERROR Here is error message
-2019-07-23 14:43:00.4877 INFO Here is info message
-2019-07-23 14:43:00.5411 DEBUG Here is debug message
-2019-07-23 14:43:00.5411 WARN Here is warn message
-2019-07-23 14:43:00.5541 ERROR Here is error message
