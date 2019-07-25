@@ -2,8 +2,8 @@ import React from 'react';
 import Nav from './components/Nav';
 import CallToAction from './components/cta'
 import { Switch, Route } from 'react-router-dom'
-import Student from './components/student'
-import Funder from './components/funder'
+import Student from './GetStarted/studentGetStarted'
+import Funder from './GetStarted/studentGetStarted'
 
 
 const App = () => {

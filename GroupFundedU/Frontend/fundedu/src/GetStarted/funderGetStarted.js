@@ -1,5 +1,5 @@
 import React from 'react'
-import FunderMetaData from './funderMetaData';
+import FunderMetaData from './metaData/funderMeta';
 
 const Funder = () => {
     return ( 

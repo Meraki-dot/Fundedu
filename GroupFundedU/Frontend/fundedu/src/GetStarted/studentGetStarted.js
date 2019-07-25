@@ -1,5 +1,5 @@
 import React from 'react'
-import StudentMetaData from './studentMetaData';
+import StudentMetaData from './metaData/studentMeta';
 
 const Student = () => {
     return ( 
