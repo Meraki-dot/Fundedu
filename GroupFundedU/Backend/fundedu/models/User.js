@@ -26,6 +26,8 @@ const UserSchema = new Schema({
     type: Date,
     default: Date.now
   }
+  // ,
+  // associates: [Schema.Types.ObjectId]
 
 });
 

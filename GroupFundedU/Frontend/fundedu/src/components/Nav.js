@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
     return (
-        <nav className="">
+        <nav className="row navigation-area">
             <NavLink to='/' 
-                    className="">
+                    className="nav-text">
                 <h1>FundedU</h1>
             </NavLink>
         </nav>

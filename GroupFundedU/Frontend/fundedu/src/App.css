@@ -1,3 +1,18 @@
 .App {
   text-align: center;
 }
+
+.btn {
+  margin: 5px;
+}
+
+.navigation-area {
+  overflow: hidden;
+  background-color: #e6d3e2;
+  height: 80px;
+  width: 100%;
+}
+
+.nav-text {
+  margin: auto;
+}
