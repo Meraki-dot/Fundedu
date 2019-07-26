@@ -4,6 +4,7 @@ import CallToAction from './components/cta'
 import { Switch, Route } from 'react-router-dom'
 import Student from './GetStarted/studentGetStarted'
 import Funder from './GetStarted/studentGetStarted'
+import './App.css'
 
 
 const App = () => {
