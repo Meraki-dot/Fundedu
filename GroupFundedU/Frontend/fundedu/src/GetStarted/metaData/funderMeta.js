@@ -2,7 +2,7 @@ import React from 'react'
 
 const FunderMetaData = () => {
     return (
-        <div>
+        <div className="row">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwn5AAfuYWHWGuoSMYkJ0Ote4m7Pc7teDrTDn11jEoZSnLuY6P" alt="" />
             <h5>Payment</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis accusantium obcaecati blanditiis nobis nesciunt dignissimos quos iusto, tempore at aperiam, quas hic suscipit voluptate eos debitis. Consequatur, sint! Mollitia.</p>

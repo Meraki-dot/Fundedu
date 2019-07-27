@@ -22,7 +22,7 @@ router.post("/register", (req, res) => {
         }
         else{
             const newUser = new User({
-                userType: "student",
+                userType: req.body.userType,
                 name: req.body.name,
                 email: req.body.email,
                 password: req.body.password, 
@@ -76,7 +76,7 @@ router.post("/login", (req, res) => {
                     (err, token) => {
                         res.json({
                             success: true,
-                            token: "Bearer" + token
+                            token: "Bearer " + token
                         })
                     }
                 )
