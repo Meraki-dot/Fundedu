@@ -1,0 +1,187 @@
+#funderContainer {
+    height: 100%;
+    width: 100%;
+    background-color: #161616;
+    color: lightgray;
+    overflow: hidden;
+}
+
+#titleFunderContainer {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(./images/beautifulHall.png);
+    box-shadow: 0 0 15px 15px #161616 inset;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#funderTitle {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    color: lightgray;
+    font-size: 150px;
+}
+
+#funderTitlem {
+    padding-bottom: 10px;
+    font-size: 145px;
+}
+
+#buttonContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -430px;
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+
+#buttonContainer button {
+    background: transparent;
+    color: lightgray;
+    border: 1px solid lightgray;
+    padding: 20px;
+    font-size: 55px;
+    outline: none;
+}
+
+#buttonContainer button:hover {
+    color: #FFE439;
+    border-color: #FFE439;
+    opacity: 0.7;
+    transition: all .7s ease-in-out;
+    cursor: pointer;
+}
+
+#buttonContainer button:active {
+    transform: translateY(4px);
+    transition: .1s;
+}
+
+#scroll-down h6 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+
+#funderMetaContainer div {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#funderMetaContainer h5 {
+    font-size: 40px;
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+#funderMetaContainer p {
+    width: 900px;
+    font-size: 25px;
+}
+
+#balance-info {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 400px;
+}
+
+#balance-info h5 {
+    position: relative;
+    top: -120px;
+    white-space: nowrap;
+    left: 5px;
+}
+
+#balance-info p {
+    position: relative;
+    right: 350px;
+    width: 1000px;
+}
+
+.funderBalanceImage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 280px;
+}
+
+.funderBalanceImage img {
+    height: 60vh;
+    width: 75vh;
+    border: solid 2px lightgray;
+}
+
+#share-info {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 350px;
+}
+
+#share-info h5 {
+    position: relative;
+    top: -70px;
+    left: 1375px;
+}
+
+#share-info p {
+    position: relative;
+    top: 30px;
+    left: 1050px;
+}
+
+.funderShareImage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    right: 450px;
+}
+
+.funderShareImage img {
+    height: 60vh;
+    width: 85vh;
+    border: solid 2px lightgray;
+}
+
+#spend-info {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 350px;
+}
+
+#spend-info h5 {
+    position: relative;
+    top: -60px;
+    white-space: nowrap;
+    left: 20px;
+}
+
+#spend-info p {
+    position: relative;
+    right: 350px;
+    top: 40px;
+    width: 510px;
+}
+
+#spend-info img {
+    height: 60vh;
+    width: 80vh;
+    border: solid 2px lightgray;
+    position: relative;
+    right: 150px;
+}

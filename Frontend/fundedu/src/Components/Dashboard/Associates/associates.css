@@ -1,0 +1,15 @@
+#associateButton {
+    background-color: transparent;
+    color: white;
+    border: 0.3px solid white;
+    margin: 15px;
+    padding: 5px;
+}
+
+#associatesContainer {
+    margin-top: 40px;
+}
+
+#associatesContainer input {
+    border-radius: 5px;
+}

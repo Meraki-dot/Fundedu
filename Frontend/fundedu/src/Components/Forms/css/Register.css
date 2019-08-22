@@ -1,0 +1,178 @@
+.registerWrapper {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/friends-holding-hands.jpg);
+    background-size: cover;
+}
+
+.pageWrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+#registerNav {
+    padding: 50px;
+    padding-left: 50px;
+    display: flex;
+}
+
+#pageImage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 34.37% 0 0 0;
+    object-fit: contain;
+    position: relative;
+}
+
+#pageImage #RegisterQuote {
+    z-index: 10;
+    color: darkgray;
+    width: 550px;
+    height: 100vh;
+    margin-top: 200px !important;
+    margin-left: -900px;
+}
+
+#quoteRegister {
+    position: absolute;
+    top: -90px;
+    left: 0px;
+}
+
+#StudentRegBack {
+    position: absolute;
+    right: -2500px;
+}
+
+#signUpForm {
+    position: absolute;
+    right: 80px;
+    top: -10px;
+    height: 925px;
+    width: 855px;
+    padding-left: 100px;
+
+}
+
+#signUpForm h1 {
+    color: darkgray;
+    position: absolute;
+    top: 250px;
+}
+
+#signUpName input {
+    right: 255px;
+    border: 0;
+    outline: 0;
+    width: 500px;
+    background: transparent;
+    border-bottom: 1px solid darkgray;
+    position: absolute;
+    top: 385px;
+    color: darkgray;
+        font-size: 20px;
+}
+
+#signUpName h5 {
+    position: absolute;
+    top: 350px;
+    color: darkgray;
+}
+
+#signUpEmail input {
+    right: 255px;
+    width: 500px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid darkgray;
+    position: absolute;
+    top: 480px;
+    color: darkgray;
+    font-size: 20px;
+}
+
+#signUpEmail h5 {
+    position: absolute;
+    top: 445px;
+    color: darkgray;
+}
+
+#signUpPass input {
+    right: 255px;
+    width: 500px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid darkgray;
+    position: absolute;
+    top: 565px;
+    color: darkgray;
+    font-size: 20px;
+}
+
+#signUpPass h5 {
+    position: absolute;
+    top: 530px;
+    color: darkgray;
+}
+
+#signUpConfirm input {
+    right: 255px;
+    width: 500px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid darkgray;
+    position: absolute;
+    top: 655px;
+    color: darkgray;
+    font-size: 20px;
+}
+
+#signUpConfirm h5 {
+    position: absolute;
+    top: 615px;
+    color: darkgray;
+}
+
+#signUpButton button {
+    border-radius: 15px;
+    position: absolute;
+    right: 250px;
+    bottom: 165px;
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    color: darkgray;
+    border: solid 1px darkgray;
+    outline-style: none;
+    cursor: pointer;
+}
+
+#signUpButton button:hover {
+    color: #FFE439;
+    border-color: #FFE439;
+    opacity: 0.7;
+    transition: all .7s ease-in-out;
+}
+
+#signUpButton button:active {
+    transform: translateY(4px);
+    transition: 0.1s;
+}
+
+.reg-have-an-acc {
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    margin-top: -180px;
+    color: darkgray;
+    
+}
+
+#link {
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.funderButtons {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    border: 0.3px solid white;
+    text-decoration: none;
+    outline: none;
+    margin: 7px;
+}
+
+
+.funderButtons:hover {
+    color: #FFE439;
+    border-color: #FFE439;
+    opacity: 0.7;
+    transition: all .7s ease-in-out;
+}
+
+.funderButtons:active {
+    transform: translateY(4px);
+    transition: 0.1s;
+}

@@ -1,0 +1,187 @@
+#studentContainer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #161616;
+    color: lightgray;
+    overflow: hidden;
+}
+
+#titleContainer {
+    background-image: url("./images/hallway.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(./images/hallway.jpeg);
+    box-shadow: 0 0 15px 15px #161616 inset;
+    background-size: cover;
+}
+
+#studentTitle {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    color: lightgray;
+    font-size: 150px;
+}
+
+#studentTitlem {
+    padding-bottom: 10px;
+    font-size: 145px;
+}
+
+#buttonContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -430px;
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+
+#buttonContainer button {
+    background: transparent;
+    color: lightgray;
+    border: 1px solid lightgray;
+    padding: 20px;
+    font-size: 55px;
+    outline: none;
+}
+
+#buttonContainer button:hover {
+    color: #FFE439;
+    border-color: #FFE439;
+    opacity: 0.7;
+    transition: all .7s ease-in-out;
+}
+
+#buttonContainer button:active {
+    transform: translateY(4px);
+    transition: .1s;
+}
+
+#scroll-down h6 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+
+#studentMetaContainer div {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#studentMetaContainer h5 {
+    font-size: 40px;
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+#studentMetaContainer p {
+    width: 900px;
+    font-size: 25px;
+}
+
+#balance-info {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 350px;
+}
+
+#balance-info h5 {
+    position: relative;
+    top: -120px;
+    white-space: nowrap;
+    left: 45px;
+}
+
+#balance-info p {
+    position: relative;
+    right: 350px;
+    width: 1000px;
+}
+
+.studentBalanceImage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 350px;
+}
+
+.studentBalanceImage img {
+    height: 60vh;
+    width: 50vh;
+    border: solid 2px lightgray;
+}
+
+#share-info {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 350px;
+}
+
+#share-info h5 {
+    position: relative;
+    top: -70px;
+    left: 1425px;
+}
+
+#share-info p {
+    position: relative;
+    top: 30px;
+    left: 1100px;
+}
+
+.studentShareImage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    right: 450px;
+}
+
+.studentShareImage img {
+    height: 60vh;
+    width: 75vh;
+    border: solid 2px lightgray;
+}
+
+#spend-info {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 350px;
+}
+
+#spend-info h5 {
+    position: relative;
+    top: -60px;
+    white-space: nowrap;
+    left: 35px;
+}
+
+#spend-info p {
+    position: relative;
+    right: 350px;
+    top: 40px;
+    width: 510px;
+}
+
+#spend-info img {
+    height: 60vh;
+    width: 75vh;
+    border: solid 2px lightgray;
+    position: relative;
+    right: 50px;
+}

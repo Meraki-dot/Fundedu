@@ -1,0 +1,240 @@
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#dashContainer {
+    height: 100vh;
+    width: 100%;
+    background-color: #2A2D35;
+    color: white;
+    display: grid;
+    grid-template-columns: [first] 15% [second] 85%;
+    overflow: hidden;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: [first] 15% [second] 85%;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+#sideColumn {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-template-columns: 95%;
+    grid-template-rows: [row1] 12% [row2] 10% [row3] auto [row4] 15%;
+    background-color: #23262E;
+}
+
+#brandSection {
+    display: grid;
+    width: 100%;
+    grid-gap: 2px;
+    justify-self: center;
+}
+
+#brandSection h1 {
+    display: grid;
+    place-self: center;
+}
+
+#rowMenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    justify-self: center;
+}
+
+#rowMenu h3 {
+    display: grid;
+    grid-template-rows: 100%;
+    background-size: cover;
+}
+
+#studentLogOut {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+#studentLogOut:hover {
+    color: #FFE439;
+    opacity: 0.7;
+    transition: all .7s ease-in-out;
+}
+
+#studentLogOut:active {
+    transform: translateY(4px);
+    transition: 0.1s;
+}
+
+#funderList li {
+    list-style: none;
+}
+
+#mainPage {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    grid-template-rows: [row1] 10% [row2] 10% [row3] auto;
+}
+
+#topMessage {
+    justify-self: center;
+    align-self: center;
+}
+
+#userInfo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+}
+
+#userInfo span m {
+    align-self: flex-end;
+    padding-bottom: 5px;
+}
+
+#userInfo span {
+    background-color: #31343E;
+    display: grid;
+    justify-content: center;
+    width: 93.5%;
+    height: 100%;
+}
+
+#userOverview {
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 30%;
+    grid-row-gap: 20px;
+}
+
+#overviewHead {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    position: relative;
+    top: 10px;
+}
+
+#balanceOverview {
+    display: grid;
+    justify-self: center;
+    background-color: #31343E;
+    width: 95%;
+}
+
+#balanceOverview h4 {
+    position: relative;
+    left: -250px;
+    top: 20px;
+    font-size: 25px;
+}
+
+#balanceOverview h2 {
+    position: relative;
+    top: -10px;
+    display: grid;
+    justify-self: center;
+    font-size: 40px;
+}
+
+#uploadContainer {
+    position: relative;
+    top: -10px;
+}
+
+#viewReceipts {
+    display: grid;
+    align-self: flex-start;
+    height: 97%;
+    width: 98%;
+    background-color: #31343E;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    grid-column-start: 2;
+}
+
+#viewReceipts h4 {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#receiptHolder {
+    display: grid;
+    justify-self: center;
+    position: relative;
+    top: -160px;
+    width: 40%;
+}
+
+#pics {
+    display: grid;
+    align-self: center;
+    height: 20%;
+    position: absolute;
+    left: -55px;
+}
+
+#pics span {
+    height: 0px;
+    width: 0px;
+    left: -50px;
+}
+
+.carousel-item {
+    height: 33vh;
+    width: 45vh;
+}
+
+#funderList {
+    display: grid;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-template-rows: 10%;
+    grid-template-columns: 50%;
+    padding-top: 45px;
+    width: 95%;
+    height: 95%;
+    background-color: #31343E;
+}
+
+#funderList h4 {
+    margin: 0px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    font-size: 25px;
+}
+
+#funderList ul {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    position: relative;
+    left: -105px;
+    top: 60px;
+}

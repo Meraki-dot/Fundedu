@@ -1,0 +1,100 @@
+#funderLandingPageContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(./kindness.jpg);
+    background-size: cover;
+}
+
+#parentContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 34.37% 0 0 0;
+}
+
+#registerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 675px;
+    bottom: 200px;
+}
+
+#loginContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    right: 710px;
+    bottom: 200px;
+}
+
+#funderRegisterButton {
+    z-index: 5;
+    padding: 25px 40px 25px 40px;
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 5px;
+    font-size: 50px;
+    color: white;
+    position: relative;
+}
+
+#funderRegisterButton:hover {
+    color: #FFE439;
+    border-color: #FFE439;
+    opacity: 0.7;
+    transition: all .7s ease-in-out;
+}
+
+#funderRegisterButton:active {
+    transform: translateY(4px);
+    transition: 0.1s;
+}
+
+#funderLoginButton {
+    z-index: 5;
+    padding: 25px 40px 25px 40px;
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 5px;
+    font-size: 50px;
+    color: white;
+    position: relative;
+}
+
+#funderLoginButton:hover {
+    color: #FFE439;
+    border-color: #FFE439;
+    opacity: 0.7;
+    transition: all .7s ease-in-out;
+}
+
+#funderLoginButton:active {
+    transform: translateY(4px);
+    transition: 0.1s;
+}
+
+#funderQuote {
+    /* position: absolute; */
+    display: grid;
+    justify-self: center;
+    align-items: center;
+}
+
+#funderQuote h5 {
+    top: 400px;
+    left: 350px;
+    z-index: 2;
+    color: white;
+    width: 60%;
+    font-size: 50px;
+    height: 100vh;
+    position: relative;
+}
